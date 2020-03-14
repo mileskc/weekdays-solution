@@ -1,7 +1,7 @@
 function solution(S, K) {
     
     
-  let days = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"]
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
   
   let start = 0
@@ -28,3 +28,4 @@ function solution(S, K) {
 }
 
 console.log(solution("Sat", 23))
+console.log(solution("Mon", 5))
